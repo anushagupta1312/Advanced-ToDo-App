@@ -21,15 +21,15 @@ body {
     border-radius: 2px;
 }
 
-.pink {
+.lightpink {
     background-color: lightpink;
 }
 
-.green {
+.lightgreen {
     background-color: lightgreen;
 }
 
-.blue {
+.lightblue {
     background-color: lightblue;
 }
 
@@ -126,7 +126,7 @@ body {
     justify-content: center;
     padding: 2rem;
     flex-wrap: wrap;
-  }
+}
 
 .ticket-cont {
     height: 12rem;
@@ -136,7 +136,6 @@ body {
 
 .ticket-color {
     height: 1rem;
-    background-color: black;
 }
 
 .ticket-id {
@@ -149,7 +148,13 @@ body {
     font-size: 1.5rem;
     padding: 5px;
     outline: none;
-
-
-
+    overflow-wrap: break-word;
 }
+.ticket-lock {
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 75px;
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
