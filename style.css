@@ -81,7 +81,7 @@ body {
 .modal-cont {
     height: 50vh;
     width: 45vw;
-    background: lightblue;
+    background: rgb(60, 62, 63);
     position: absolute;
     top: calc((100vh - 50vh) / 2);
     left: calc((100vw - 45vw) / 2);
@@ -113,7 +113,6 @@ body {
 .priority-color {
     height: 2.5rem;
     width: 3.5rem;
-
 }
 
 .active {
